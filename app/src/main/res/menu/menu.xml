@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Main">
+
+
+    <item android:id="@+id/salir"
+        android:title="Salir"
+        app:showAsAction="always"
+        android:icon="@drawable/exit"/>
+
+    <item android:id="@+id/conectar"
+        android:title="conectar"
+        app:showAsAction="always"
+        android:icon="@drawable/connect"/>
+
+    <item android:id="@+id/ajustes"
+        android:title="Ajustes"
+        app:showAsAction="always"
+        android:icon="@drawable/settings"/>
+
+    <item android:id="@+id/acerca_de"
+        android:title="Acerca de"
+        app:showAsAction="never" />
+
+</menu>

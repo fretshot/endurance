@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:dialogTitle="Ingrese la IP de Endurance"
+        android:key="ip_endurance"
+        android:summary="Toque para modificar"
+        android:title="IP de Endurance"
+        android:defaultValue="192.168.1.73"
+        android:icon="@drawable/ip"/>
+
+
+
+</PreferenceScreen>
